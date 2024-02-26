@@ -10,7 +10,7 @@ I present how to:
 - extract relevant information
 - create a panel data at the municipal level with precipitations and temperature
 
-The project is written in R, and mainly uses ``terra`` and ``sf`` packages.
+The project is written in R, and mainly uses ``terra`` and ``sf`` packages. This readme guides you through the codes, which can also be download or forked from this repo. 
 
 _there are obviously faster/cleaner solutions, but this is the one I came up with, hoping it my be useful to anyone. comments are more than welcomed_
 
