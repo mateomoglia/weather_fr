@@ -22,39 +22,11 @@ I use the 0.1°x0.1° resolution, and the more specific information on rainfall 
 
 Two shapefiles are used: one for France's extent (downloaded [here](https://ec.europa.eu/eurostat/fr/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts)) and one for French municipality in their *2020 geography* (downloaded [here](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)). 
 
-<table>
-  <caption>
-    Summary of datasources
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Data</th>
-      <th scope="col">Source</th>
-      <th scope="col">Format</th>
-      <th scope="col">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Weather data</th>
-      <td>Copernicus (2011-2023)</td>
-      <td>``nc_data``</td>
-      <td>[Link](https://surfobs.climate.copernicus.eu/dataaccess/access_eobs_chunks.php)</td>
-    </tr>
-    <tr>
-      <th scope="row">France</th>
-      <td>Eurostat</td>
-      <td>``shp``</td>
-      <td>[Link](https://ec.europa.eu/eurostat/fr/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts)</td>
-    </tr>
-    <tr>
-      <th scope="row">Municipalities (2020)</th>
-      <td>OSM</td>
-      <td>``shp``</td>
-      <td>[Link](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)</td>
-    </tr>
-  </tfoot>
-</table>
+| Data               | Source             | Format    | Link                                                                                              |
+|--------------------|--------------------|-----------|---------------------------------------------------------------------------------------------------|
+| Weather data       | Copernicus (2011-2023) | `nc_data` | [Link](https://surfobs.climate.copernicus.eu/dataaccess/access_eobs_chunks.php)                   |
+| France             | Eurostat           | `shp`     | [Link](https://ec.europa.eu/eurostat/fr/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts) |
+| Municipalities (2020) | OSM              | `shp`     | [Link](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/) |
 
 ## Roadmap
 
