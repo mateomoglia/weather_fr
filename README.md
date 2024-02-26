@@ -22,11 +22,13 @@ I use the 0.1°x0.1° resolution, and the more specific information on rainfall 
 
 Two shapefiles are used: one for France's extent (downloaded [here](https://ec.europa.eu/eurostat/fr/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts)) and one for French municipality in their *2020 geography* (downloaded [here](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/)). 
 
+<div style="text-align:center">
 | Data               | Source             | Format    | Link                                                                                              |
 |--------------------|--------------------|-----------|---------------------------------------------------------------------------------------------------|
 | Weather data       | Copernicus (2011-2023) | `nc_data` | [Link](https://surfobs.climate.copernicus.eu/dataaccess/access_eobs_chunks.php)                   |
 | France             | Eurostat           | `shp`     | [Link](https://ec.europa.eu/eurostat/fr/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts) |
 | Municipalities (2020) | OSM              | `shp`     | [Link](https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/) |
+</div>
 
 ## Roadmap
 
